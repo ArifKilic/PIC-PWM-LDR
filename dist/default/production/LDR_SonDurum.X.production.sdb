@@ -1,0 +1,162 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"18 C:\Users\KÝRA\Documents\Lessons\5. yarýyýl\mikroiþlemciler\pic ldr projesi  -  PWM  -  ADC   kullanýldý\LDR_SonDurum.X\LDR_son.c
+[v _duty_gir duty_gir `(v  1 e 1 0 ]
+"24
+[v _PWM1_TMR2_giris PWM1_TMR2_giris `(i  1 e 2 0 ]
+"36
+[v _ADC_Deger ADC_Deger `(v  1 e 1 0 ]
+"42
+[v _main main `(v  1 e 1 0 ]
+"868 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic16f877a.h
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"1118
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1124
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S32 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1155
+[s S38 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S46 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S49 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S52 . 1 `S32 1 . 1 0 `S38 1 . 1 0 `S46 1 . 1 0 `S49 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES52  1 e 1 @31 ]
+"1288
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1770
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2169
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2175
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2361
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"2363
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"2365
+[v _CCP1X CCP1X `VEb  1 e 0 @189 ]
+"2367
+[v _CCP1Y CCP1Y `VEb  1 e 0 @188 ]
+"2645
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2647
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2665
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"2707
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"42 C:\Users\KÝRA\Documents\Lessons\5. yarýyýl\mikroiþlemciler\pic ldr projesi  -  PWM  -  ADC   kullanýldý\LDR_SonDurum.X\LDR_son.c
+[v _main main `(v  1 e 1 0 ]
+{
+"44
+[v main@volt_degeri volt_degeri `d  1 a 3 46 ]
+"43
+[v main@deger deger `ui  1 a 2 51 ]
+[v main@adc_deger adc_deger `ui  1 a 2 49 ]
+"80
+} 0
+"18
+[v _duty_gir duty_gir `(v  1 e 1 0 ]
+{
+[v duty_gir@deger1 deger1 `i  1 p 2 0 ]
+"22
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 41 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 45 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 40 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 32 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 11 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 15 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 14 ]
+[v ___ftmul@exp exp `uc  1 a 1 10 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 0 ]
+[v ___ftmul@f2 f2 `f  1 p 3 3 ]
+"157
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 27 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 31 ]
+[v ___ftdiv@exp exp `uc  1 a 1 30 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 26 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 16 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 19 ]
+"86
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"24 C:\Users\KÝRA\Documents\Lessons\5. yarýyýl\mikroiþlemciler\pic ldr projesi  -  PWM  -  ADC   kullanýldý\LDR_SonDurum.X\LDR_son.c
+[v _PWM1_TMR2_giris PWM1_TMR2_giris `(i  1 e 2 0 ]
+{
+"34
+} 0
+"36
+[v _ADC_Deger ADC_Deger `(v  1 e 1 0 ]
+{
+"40
+} 0
